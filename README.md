@@ -27,8 +27,7 @@ CRUD completo desenvolvido com **NestJS** para o gerenciamento de uma **Loja de 
 | Campo     | Tipo   |
 |-----------|--------|
 | id        | number |
-| titulo    | string |
-| descricao | string |
+| nome      | string |
 | preco     | number |
 | categoria | Relação com Categoria |
 
@@ -79,3 +78,6 @@ POST /jogos
 PUT /jogos/:id
 
 DELETE /jogos/:id
+
+👨‍💻 Autor
+Raul Vieira 💻  
